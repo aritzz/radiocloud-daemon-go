@@ -54,6 +54,7 @@ func PodcastDownloader(signalstop *bool) {
         }
 
         if downElement.LastFile == filename {
+          db.UpdateLastFileDownload(downElement.Id, filename)
           continue
         }
 

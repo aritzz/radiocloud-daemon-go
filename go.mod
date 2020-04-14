@@ -1,4 +1,4 @@
-module radiocloud.daemon
+module github.com/aritzz/radiocloud-daemon
 
 go 1.13
 
